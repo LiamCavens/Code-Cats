@@ -1,6 +1,6 @@
 const app = function () {
     //write code
-    addCat("Ezra", "Cheese", "<script>alert('fuck your image';);");
+    addCat("Ezra", "Cheese", "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/An_Indian_tiger_in_the_wild._Royal%2C_Bengal_tiger_%2827466438332%29.jpg/800px-An_Indian_tiger_in_the_wild._Royal%2C_Bengal_tiger_%2827466438332%29.jpg");
 }
 
 const addCat = function (name, favouriteFood, catImage) {
