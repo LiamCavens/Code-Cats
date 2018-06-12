@@ -37,7 +37,7 @@ const createListFood = function (food) {
 
 const createListImage = function (catImage) {
     let listImage = document.createElement("li");
-    listImage.innerHTML = `<img width="500" src="${catImage}"></li>`
+    listImage.innerHTML = `<img src="${catImage}"></li>`
     return listImage;
 }
 

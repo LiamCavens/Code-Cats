@@ -1,8 +1,39 @@
+body {
+  width: 100vw;
+  background-color: goldenrod;
+}
+
 .logo {
   width: 50px;
   height: 50px;
 }
 
+h1 {
+  font-size: 44px;
+  text-align: center;
+  font-family: 'Homemade Apple', cursive;
+}
+
 .red-quote{
   color: red;
+}
+
+#cats {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cat {
+  background-color: wheat;
+  margin: 0%;
+  padding: 2%;
+}
+
+img {
+  width: 28vw;
+}
+
+img:hover {
+    /* -webkit-transform: scaleX(-1); */
+    transform: scaleX(-1);
 }
